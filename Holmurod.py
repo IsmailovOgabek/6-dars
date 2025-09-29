@@ -39,3 +39,16 @@ def additional_math_functions():
 
 additional_result = additional_math_functions()
 print(additional_result)
+
+def geometry_functions():
+    # Area of a circle
+    radius = 5
+    area_circle = math.pi * (radius ** 2)
+    
+    # Circumference of a circle
+    circumference_circle = 2 * math.pi * radius
+    
+    return {
+        'area_circle': area_circle,
+        'circumference_circle': circumference_circle
+    }
