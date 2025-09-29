@@ -24,3 +24,18 @@ def math_functions():
 
 result = math_functions()
 print(result)
+
+def additional_math_functions():
+    # Logarithm
+    log_value = math.log(100)  # Natural logarithm (base e)
+    
+    # Exponential
+    exp_value = math.exp(2)  # e^2
+    
+    return {
+        'log': log_value,
+        'exp': exp_value
+    }
+
+additional_result = additional_math_functions()
+print(additional_result)
